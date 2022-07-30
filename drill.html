@@ -404,9 +404,9 @@
         drillDown(data.cityCode)
     }
 
-    window.onresize = () => {
+    $(window).bind('resize', () => {
         myChart.resize()
-    }
+    })
 </script>
 </body>
 
